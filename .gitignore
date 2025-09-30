@@ -1,0 +1,81 @@
+# .NET build artifacts
+bin/
+obj/
+out/
+Debug/
+Release/
+x64/
+x86/
+[Aa][Rr][Mm]*/
+[Aa][Rr][Mm]64/
+
+# Visual Studio files
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider
+.idea/
+*.sln.iml
+
+# VS Code
+.vscode/
+
+# Test results
+TestResults/
+*.coverage
+*.coveragexml
+*.trx
+
+# NuGet
+*.nupkg
+*.snupkg
+*.nuspec
+project.lock.json
+artifacts/
+packages/
+*.nuget.props
+*.nuget.targets
+
+# Logs
+*.log
+
+# Resharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# DotCover
+*.dotCover
+
+# Azure Functions local settings
+local.settings.json
+
+# Entity Framework
+Migrations/
+
+# Tye / Aspire
+.tye/
+
+# Dotnet tools
+.dotnet-tools/
+
+# Backup & temp files
+*.bak
+*.tmp
+*.temp
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# Others
+*.publishsettings
+*.pubxml
+*.pubxml.user
